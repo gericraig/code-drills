@@ -1,0 +1,29 @@
+.first {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.second {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.third {
+   font-family: 'Ranga', cursive; 
+}
+
+.fourth {
+    font-family: 'Warnes', cursive;
+}
+
+h1 {
+    font: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    font: 30px;
+    font-style: italic; 
+}
+
+
+
+

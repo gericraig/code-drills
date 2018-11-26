@@ -1,0 +1,81 @@
+.box {
+  height: 150px;
+  width: 250px;
+  margin: 20px;
+  float: left;
+}
+
+.inside-box {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+
+#top1, #bottom1 {
+  background-color: red;
+}
+
+#top2, #bottom2 {
+  background-color: green;
+}
+
+#top3, #bottom3 {
+  background-color: blue;
+}
+
+button {
+  height: 100px;
+  width: 200px;
+  margin: 10px;
+}
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Your code goes below here! */
+
+#bottom1:hover {
+  height: 85px
+}
+
+#bottom2:active {
+  margin-right: 250px;
+}
+
+#bottom3:hover {
+  background-color: goldenrod;
+}
+
+#bottom3:active {
+  float: right;
+}
+
+.btn-even:hover {
+height: 18%;
+width: 18%;
+}
+
+.btn-even:active {
+  height: 85%;
+  width: 85%;
+}
+
+.btn-odd:active {
+  color: greenyellow;
+  background-color: palevioletred;
+  border-width: 100px;
+  border-color: orange;
+  border-style: dotted; 
+}
+
+.btn-odd:hover {
+  color: purple;
+  background-color: blue;
+  border-width: 73px;
+  border-color: khaki;
+  border-style: double; 
+}
